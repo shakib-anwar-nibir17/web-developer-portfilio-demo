@@ -25,6 +25,9 @@ nav {
 }
 .header {
   background-color: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .nav-title {
   color: #181818;
@@ -43,12 +46,55 @@ nav a {
   text-decoration: none;
   color: #474747;
 }
-.banner{
-  padding: 30px 30px 30px 200px;
+/* banner related style */
+.banner {
+  padding: 30px 30px 0px 200px;
   display: flex;
   align-items: center;
-  
+  justify-content: space-between;
 }
-.banner .banner-profile-pic{
+.banner .banner-profile-pic {
   width: 500px;
+}
+.banner-content{
+  max-width: 570px;
+}
+
+.banner-greetings {
+  color: #474747;
+  font-size: 45px;
+  margin-bottom: 0px;
+}
+.banner-title {
+  color: #181818;
+margin-top: 5px;
+margin-bottom: 15px;
+  font-size: 85px;
+ font-weight: 700;
+}
+/* main section  related style */
+
+.section-titile{
+  color: #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+
+
+}
+.section-description{
+  color:  #757575;
+  text-align: center;
+
+font-size: 18px;
+font-weight: 400;
+}
+
+/* about me related style */
+
+.about{
+  margin: 130px 0;
+  padding: 130px;
+  border-radius: 10px;
+  background: #FFF8F3;
 }
