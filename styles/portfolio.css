@@ -56,7 +56,7 @@ nav a {
 .banner .banner-profile-pic {
   width: 500px;
 }
-.banner-content{
+.banner-content {
   max-width: 570px;
 }
 
@@ -67,34 +67,48 @@ nav a {
 }
 .banner-title {
   color: #181818;
-margin-top: 5px;
-margin-bottom: 15px;
+  margin-top: 5px;
+  margin-bottom: 15px;
   font-size: 85px;
- font-weight: 700;
+  font-weight: 700;
 }
 /* main section  related style */
 
-.section-titile{
-  color: #181818;
-text-align: center;
-font-size: 35px;
-font-weight: 700;
-
-
+main {
+  max-width: 1140px;
+  margin: 0 auto;
 }
-.section-description{
-  color:  #757575;
+
+.section-titile {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.section-description {
+  color: #757575;
   text-align: center;
 
-font-size: 18px;
-font-weight: 400;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 /* about me related style */
 
-.about{
+.about {
   margin: 130px 0;
   padding: 130px;
   border-radius: 10px;
-  background: #FFF8F3;
+  background: #fff8f3;
+}
+.about-info-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.about-info {
+  text-align: center;
+}
+#what-i-do-description{
+  padding: 30px 150px;
 }
