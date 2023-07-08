@@ -10,20 +10,30 @@ body {
 .btn-primary {
   border-radius: 5px;
   background: #fd6e0a;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  padding: 15px 35px;
 }
 
 /* nav related style */
 nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
+}
+.header {
+  background-color: #fff8f3;
 }
 .nav-title {
   color: #181818;
   font-size: 45px;
-  font-style: normal;
   font-weight: 800;
 }
 nav > ul {
   display: flex;
+  align-items: center;
 }
 nav li {
   list-style: none;
@@ -32,4 +42,13 @@ nav li {
 nav a {
   text-decoration: none;
   color: #474747;
+}
+.banner{
+  padding: 30px 30px 30px 200px;
+  display: flex;
+  align-items: center;
+  
+}
+.banner .banner-profile-pic{
+  width: 500px;
 }
