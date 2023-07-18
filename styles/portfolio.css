@@ -197,3 +197,35 @@ textarea {
   width: 100%;
 }
 
+@media screen and ( max-width: 576px){
+  nav{
+    /* margin: 0px 0px; */
+    flex-direction: column;
+    margin-left: 300px;
+  }
+  .header {
+    width: 100%;
+  }
+  .banner{
+    flex-direction: column;
+    justify-content:center;
+    text-align: right;
+  }
+  .banner-profile-pic{
+    margin-right: 200px;
+  }
+
+  .btn-primary{
+    margin-top: 10px;
+  }
+  .about-info-container{
+    flex-direction: column;
+  }
+  .skills-container{
+    flex-direction: column;
+  }
+  footer{
+    flex-direction: column;
+    padding: 0;
+  }
+}
